@@ -1,2 +1,2 @@
-# pratica-curso-webdev-coderhouse
-Repositório com os arquivos gerados nas partes práticas das aulas do curso de desenvolvimento web da Coderhouse
+# Exercícios práticos - Desenvolvimento Web
+Repositório com os arquivos gerados nos momentos práticos das aulas do curso de desenvolvimento web da Coderhouse
