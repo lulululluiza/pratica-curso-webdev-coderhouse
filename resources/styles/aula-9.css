@@ -1,0 +1,36 @@
+/*Atividade 1*/
+.desafio1-1 {
+	background: blue;
+}
+
+.lista1-1 {
+	background: blueviolet;
+}
+
+.lista2-1 {
+	background: skyblue;
+}
+
+
+/*Atividade 2*/
+.desafio1-2 {
+	color: orange;
+}
+
+.lista1-2 {
+	list-style: url('https://www.svgrepo.com/show/11566/speech-bubble.svg');
+}
+
+.lista2-2 {
+}
+
+.lista1-2, .lista2-2 {
+	color: #F0FFFF;
+	background: #6495ED;
+}
+
+/*Atividade 3*/
+* {
+	font-family: 'Inter', sans-serif;
+	font-family: 'Playpen Sans', cursive;
+}
