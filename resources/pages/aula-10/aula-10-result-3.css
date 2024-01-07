@@ -1,8 +1,0 @@
-div {
-	width: 200px;
-	height: 200px;
-
-	border: 5px dotted black;
-	margin: 5px 8px;
-	overflow: auto;
-}
