@@ -1,0 +1,88 @@
+.container {
+	display: grid;
+	grid-template-areas: 
+	'header'
+	'div1-main'
+	'div2-main'
+	'div3-main'
+	'div4-main'
+	'div5-main';
+}
+
+header {
+	background-color: rgb(178,214,255);
+	grid-area: header;
+	height: 13vh;
+}
+
+.div1-main {
+	background-color: rgb(234, 237, 240);
+	grid-area: div1-main;
+	height: 35vh;
+}
+
+.div2-main {
+	background-color: rgb(214,233,254);
+	grid-area: div2-main;
+	height: 13vh;
+}
+
+.div3-main {
+	background-color: rgb(245,207,142);
+	grid-area: div3-main;
+	height: 13vh;
+}
+
+.div4-main {
+	background-color: rgb(240,154,157);
+	grid-area: div4-main;
+	height: 13vh;
+}
+
+.div5-main {
+	background-color: rgb(200,198,250);
+	grid-area: div5-main;
+	height: 13vh;
+}
+
+/*Tablet*/
+@media screen and (min-width: 500px) {
+	.container {
+		grid-template-areas: 
+		'header header'
+		'div1-main div1-main'
+		'div2-main div3-main'
+		'div4-main div5-main';
+	}
+
+	header, .div2-main, .div3-main, .div4-main, .div5-main {
+		height: 20vh;
+	}
+
+	.div1-main  {
+		height: 40vh;
+	}
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+	.container {
+		grid-template-areas: 
+		'header header header'
+		'div3-main div5-main div4-main'
+		'div2-main div2-main div2-main'
+		'div1-main div1-main div1-main';
+	}
+
+	header {
+		height: 20vh;
+	}
+
+	.div1-main, .div3-main, .div5-main, .div4-main {
+		height: 35vh;
+	}
+
+	.div2-main  {
+		height: 10vh;
+	}
+}

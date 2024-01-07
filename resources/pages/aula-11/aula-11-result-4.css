@@ -1,0 +1,24 @@
+.p1::first-letter {
+	font-size: 60px;
+	text-transform: uppercase;
+	background: yellow;
+}
+
+.p2::first-line {
+	background-color: red;
+}
+
+::selection {
+	background-color: yellow;
+	color: blue;
+}
+
+::marker {
+	color: pink;
+	font-size: 50px;
+}
+
+input::placeholder {
+	background: pink;
+	color: red;
+}

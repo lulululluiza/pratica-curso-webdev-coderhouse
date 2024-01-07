@@ -1,0 +1,21 @@
+#check1:checked {
+	height: 50px;
+  	width: 50px;
+}
+
+:disabled {
+	background: lightyellow;
+	border: 3px solid black;
+}
+
+:valid {
+	background-color: #AAFF7F;
+}
+
+:invalid {
+	background-color: #FF7F7F;
+}
+
+label {
+	color: pink;
+}
